@@ -22,7 +22,7 @@ public class TCPDataStream486 {
         Map<Integer, Integer> mp = new TreeMap<>();
         for (int i=0;i<n;i++){
             int a = dis.readInt();
-            if(mp.containsKey(a)==false){
+            if(!mp.containsKey(a)){
                 mp.put(a, 1);
             } else {
                 mp.put(a, mp.get(a)+1);
