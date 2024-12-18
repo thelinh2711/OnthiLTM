@@ -8,7 +8,7 @@ import java.util.List;
 import vn.medianews.DataService;
 import vn.medianews.DataService_Service;
 
-public class JavaApplication3 {
+public class WSDataService486 {
     public static void main(String[] args) {
         DataService_Service dss = new DataService_Service();
         DataService ds = dss.getDataServicePort();
